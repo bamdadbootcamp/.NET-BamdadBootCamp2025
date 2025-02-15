@@ -116,16 +116,59 @@
 //    if (10 > 20)
 //    {
 //        int num1 = 10;
-        
+
 //    }
-    
 //}
 //Console.WriteLine($"Number is {i}");
 
-// Version Control
-// git : GitHub - GitLab
+//for (int i = 0; i < 10; i += 10)
+//{
 
-// Hi
+//}
+
+//int num = 10;
+
+//num = num + 5;
+//num += 5;
+
+//num = num +- 5;
+//num -= 5;
+
+//num = num / -5;
+//num /= 5;
+
+//num = num * -5;
+//num *= 5;
+
+
+// 1- for
+// 2- do
+// 3- while
+
+//do
+//{
+
+//Console.WriteLine("Enter q to exit");
+//string inputText = Console.ReadLine();
+
+
+int retryCount = 0;
+bool isSuccess = false;
+do
+{
+    Console.Clear();
+    Console.WriteLine("Hello KaveNegar");
+    Console.WriteLine("T or F");
+    string input = Console.ReadLine();
+    isSuccess = input == "T" ? true : false;
+    //if (isSuccess == false)
+    if (!isSuccess)
+        retryCount++;
+
+//} while (isSuccess == false && retryCount < 3);
+} while (!isSuccess && retryCount < 3);
+
+
 
 
 
