@@ -1,0 +1,14 @@
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\bin\Debug\net8.0\Session02.exe
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\bin\Debug\net8.0\Session02.deps.json
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\bin\Debug\net8.0\Session02.runtimeconfig.json
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\bin\Debug\net8.0\Session02.dll
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\bin\Debug\net8.0\Session02.pdb
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.AssemblyInfo.cs
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.dll
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\refint\Session02.dll
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.pdb
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\Session02.genruntimeconfig.cache
+C:\Users\Hp\Desktop\Tafreshi\Session01\Session02\Session02\obj\Debug\net8.0\ref\Session02.dll
