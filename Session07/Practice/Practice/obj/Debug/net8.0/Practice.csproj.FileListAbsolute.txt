@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\bin\Debug\net8.0\Practice.exe
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\bin\Debug\net8.0\Practice.deps.json
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\bin\Debug\net8.0\Practice.runtimeconfig.json
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\bin\Debug\net8.0\Practice.dll
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\bin\Debug\net8.0\Practice.pdb
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.AssemblyInfo.cs
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.sourcelink.json
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.dll
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\refint\Practice.dll
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.pdb
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\Practice.genruntimeconfig.cache
+C:\Users\Hp\Desktop\.NET BootCamp\.NET-BamdadBootCamp2025\Session07\Practice\Practice\obj\Debug\net8.0\ref\Practice.dll
