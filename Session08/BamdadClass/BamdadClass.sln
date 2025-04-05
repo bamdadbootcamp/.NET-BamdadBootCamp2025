@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BamdadClass", "BamdadClass\BamdadClass.csproj", "{21890CB3-52C7-42EA-AE81-4645AF1FD87C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21890CB3-52C7-42EA-AE81-4645AF1FD87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21890CB3-52C7-42EA-AE81-4645AF1FD87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21890CB3-52C7-42EA-AE81-4645AF1FD87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21890CB3-52C7-42EA-AE81-4645AF1FD87C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D255821-201E-4BA8-B5AF-D327FCB22F7A}
+	EndGlobalSection
+EndGlobal
