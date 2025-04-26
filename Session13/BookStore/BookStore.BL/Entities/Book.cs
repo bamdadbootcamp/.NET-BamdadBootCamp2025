@@ -33,7 +33,7 @@ public class Book : BaseEntity
 
         // step 3 : important 
         if (BookPriceUpdatedEvent != null)
-            int numsw = BookPriceUpdatedEvent(Name, newPrice);
+            BookPriceUpdatedEvent(Name, newPrice);
     }
 
     // step 1 : delegate (استاندارد متد)
