@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber.UI", "GuessNumber.UI\GuessNumber.UI.csproj", "{5590999E-7B5F-4FAC-9FB0-E7C72D5C4855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber.Logic", "GuessNumber.Logic\GuessNumber.Logic.csproj", "{1B172386-399E-4269-9B36-A2595DE0A478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5590999E-7B5F-4FAC-9FB0-E7C72D5C4855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5590999E-7B5F-4FAC-9FB0-E7C72D5C4855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5590999E-7B5F-4FAC-9FB0-E7C72D5C4855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5590999E-7B5F-4FAC-9FB0-E7C72D5C4855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B172386-399E-4269-9B36-A2595DE0A478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B172386-399E-4269-9B36-A2595DE0A478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B172386-399E-4269-9B36-A2595DE0A478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B172386-399E-4269-9B36-A2595DE0A478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {600E2850-A619-4962-ACBE-B197F6190292}
+	EndGlobalSection
+EndGlobal
