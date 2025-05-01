@@ -37,7 +37,7 @@ public class Book : BaseEntity
     }
 
     // step 1 : delegate (استاندارد متد)
-    public delegate int OnUpdatePrice(string bookName, decimal newPrice);
+    public delegate void OnUpdatePrice(string bookName, decimal newPrice);
 
 
     // step 2: event
