@@ -6,7 +6,6 @@ public class Publisher : BaseEntity
 {
     private Publisher()
     {
-        Id = Ulid.NewUlid();
     }
 
     public static Publisher Create(string Title)
@@ -15,4 +14,6 @@ public class Publisher : BaseEntity
     }
 
     public string Title { get; set; }
+
+    public ICollection<Book> Books { get; set; } // Navigation property
 }

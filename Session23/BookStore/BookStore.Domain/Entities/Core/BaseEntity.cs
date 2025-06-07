@@ -18,4 +18,4 @@ public abstract class BaseEntity<TKey>
     //    => num1 + num2;
 }
 
-public abstract class BaseEntity : BaseEntity<Ulid>;
+public abstract class BaseEntity : BaseEntity<int>;

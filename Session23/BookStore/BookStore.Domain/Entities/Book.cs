@@ -10,14 +10,12 @@ public class Book : BaseEntity
 {
     private Book()
     {
-        Id = Ulid.NewUlid();
     }
-
     public static Book Create(string name
         , decimal price
         , int pageCount
         , string isbn
-        , Ulid publisherId)
+        , int publisherId)
     {
         return new Book
         {
@@ -40,8 +38,12 @@ public class Book : BaseEntity
     public string ISBN { get; private set; }
     public DateOnly PublishDate { get; private set; }
 
-    public Ulid PublisherId { get; set; }
-    public Publisher Publisher { get; set; }
+
+    public int PublisherId { get; set; } // FK
+    public Publisher Publisher { get; set; } // Navigation property
+
+    public int CategoryId { get; set; }
+    public BookCategory Category { get; set; }
 
     public void UpdatePrice(decimal newPrice)
     {

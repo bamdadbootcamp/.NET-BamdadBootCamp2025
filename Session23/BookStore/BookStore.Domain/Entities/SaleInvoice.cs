@@ -5,15 +5,12 @@ namespace BookStore.Domain.Entities;
 
 public class SaleInvoice : BaseEntity
 {
-    // SOLID 
-    // Single Responsibility Principle
     private SaleInvoice()
     {
-        Id = Ulid.NewUlid();
     }
     public string Number { get; private set; }
     public DateTime InvoiceDateTime { get; private set; }
-    public List<InvoiceDetail> InvoiceDetails { get; private set; } = new();
+    public ICollection<InvoiceDetail> InvoiceDetails { get; private set; }
     public decimal TotalPrice { get; private set; }
 
     public static SaleInvoice Create()

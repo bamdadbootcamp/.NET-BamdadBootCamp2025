@@ -4,9 +4,8 @@ namespace BookStore.Domain.Entities;
 
 public class BookCategory : BaseEntity
 {
-    public BookCategory()
-    {
-        Id = Ulid.NewUlid();
-    }
     public string Title { get; set; }
+    public int Test { get; set; }
+
+    public ICollection<Book> Books { get; set; }
 }

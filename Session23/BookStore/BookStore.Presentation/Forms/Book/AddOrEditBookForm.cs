@@ -48,12 +48,12 @@ namespace BookStore.Presentation.Forms.Book
             get { return DateOnly.FromDateTime(DateTime.Parse(publishDateTimePicker.Text)); }
         }
 
-        public Ulid PublisherId
+        public int PublisherId
         {
             get 
             {
-                Ulid id;
-                bool result = Ulid.TryParse(publisherComboBox.SelectedValue.ToString(), out id);
+                int id;
+                bool result = int.TryParse(publisherComboBox.SelectedValue.ToString(), out id);
                 return id;
             }
         }

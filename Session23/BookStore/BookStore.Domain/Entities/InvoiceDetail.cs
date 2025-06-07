@@ -6,13 +6,12 @@ public class InvoiceDetail : BaseEntity
 {
     private InvoiceDetail()
     {
-        Id = Ulid.NewUlid();
     }
-    public Ulid InvoiceId { get; private set; }
+    public int InvoiceId { get; private set; }
     public RentInvoice RentInvoice { get; private set; }
     public SaleInvoice SaleInvoice { get; private set; }
 
-    public Ulid BookId { get; private set; }
+    public int BookId { get; private set; }
     public Book Book { get; private set; }
 
     public int Quantity { get; private set; }

@@ -10,13 +10,12 @@ public class RentInvoice : BaseEntity
      
     private RentInvoice()
     {
-        Id = Ulid.NewUlid();
     }
 
     public string Number { get; private set; }
     public RentStatus Status { get; private set; }
     public DateTime InvoiceDateTime { get; private set; }
-    public List<InvoiceDetail> InvoiceDetails { get; private set; }
+    public ICollection<InvoiceDetail> InvoiceDetails { get; private set; }
     public decimal? FinePrice { get; private set; }
     public decimal TotalPrice { get; private set; }
     public DateTime DeliveryDate { get; private set; }
