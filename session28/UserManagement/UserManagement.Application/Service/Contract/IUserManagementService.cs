@@ -11,6 +11,7 @@ namespace UserManagement.Application.Service.Contract;
 
 public interface IUserManagementService
 {
-    void SignUp(CreateUserDto dto);
-    List<GetUsersDto> GetUsers();
+    Task SignUpAsync(CreateUserDto dto, CancellationToken cancellationToken = default);
+    Task<List<GetUsersDto>> GetUsersAsync(CancellationToken cancellationToken = default);
+    Task<GetUsersDto> GetByIdAsync(long id, CancellationToken cancellationToken = default);
 }

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.WebApi", "UserManagement.WebApi\UserManagement.WebApi.csproj", "{3E9F8136-AB80-4A34-BB33-7161A69CE371}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.WebApi", "UserManagement.WebApi\UserManagement.WebApi.csproj", "{3E9F8136-AB80-4A34-BB33-7161A69CE371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Domain", "UserManagement.Domain\UserManagement.Domain.csproj", "{DA504799-F0B9-4F79-9565-A0EAA4A3E336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Domain", "UserManagement.Domain\UserManagement.Domain.csproj", "{DA504799-F0B9-4F79-9565-A0EAA4A3E336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.DAL", "UserManagement.DAL\UserManagement.DAL.csproj", "{2FB55D90-37F8-45D6-944A-4265C10279ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.DAL", "UserManagement.DAL\UserManagement.DAL.csproj", "{2FB55D90-37F8-45D6-944A-4265C10279ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Application", "UserManagement.Application\UserManagement.Application.csproj", "{C4DD3D25-D119-4F85-A7A5-919BA1DF69A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Application", "UserManagement.Application\UserManagement.Application.csproj", "{C4DD3D25-D119-4F85-A7A5-919BA1DF69A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

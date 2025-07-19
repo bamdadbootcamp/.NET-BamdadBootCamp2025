@@ -1,4 +1,6 @@
-﻿using UserManagement.Application.DTOs;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using UserManagement.Application.DTOs;
 using UserManagement.Application.Service.Contract;
 using UserManagement.DAL;
 using UserManagement.Domain.Entities;
@@ -14,9 +16,29 @@ public class UserManagementService : IUserManagementService
         _dbContext = dbContext;
     }
 
-    public List<GetUsersDto> GetUsers()
+    public async Task<GetUsersDto> GetByIdAsync(long id, CancellationToken cancellationToken)
     {
-        var usersDto = _dbContext.Users
+        //var user = await _dbContext.Users.FindAsync(cancellationToken, id);
+        var user = await _dbContext.Users.SingleOrDefaultAsync(s => s.Id == id, cancellationToken);
+
+        if (user == null) throw new Exception("User not found");
+
+        return new GetUsersDto
+        {
+            Id = id,
+            Address = user.Address,
+            Email = user.Email,
+            LastLoginDateTime = user.LastLoginDateTime,
+            Phonenumber = user.Phonenumber,
+            Status = user.Status,
+            Username = user.Username
+        };
+
+    }
+
+    public async Task<List<GetUsersDto>> GetUsersAsync(CancellationToken cancellationToken)
+    {
+        var usersDto = await _dbContext.Users
             .Select(s => new GetUsersDto
             {
                 Id = s.Id,
@@ -27,17 +49,36 @@ public class UserManagementService : IUserManagementService
                 Phonenumber = s.Phonenumber,
                 Status = s.Status,
             })
-            .ToList();
+            .ToListAsync(cancellationToken);
 
         return usersDto;
     }
 
-    public void SignUp(CreateUserDto dto)
+    //public List<GetUsersDto> GetUsers()
+    //{
+    //    var usersDto = _dbContext.Users
+    //        .Select(s => new GetUsersDto
+    //        {
+    //            Id = s.Id,
+    //            Username = s.Username,
+    //            Email = s.Email,
+    //            Address = s.Address,
+    //            LastLoginDateTime = s.LastLoginDateTime,
+    //            Phonenumber = s.Phonenumber,
+    //            Status = s.Status,
+    //        })
+    //        .ToList();
+
+    //    return usersDto;
+    //}
+
+
+    public async Task SignUpAsync(CreateUserDto dto, CancellationToken cancellationToken)
     {
         var user = User.Create(dto.Username, dto.Password,
             dto.Email, dto.PhoneNumber, dto.Address);
 
-        _dbContext.Users.Add(user);
-        _dbContext.SaveChanges();
+        await _dbContext.Users.AddAsync(user, cancellationToken);
+        await _dbContext.SaveChangesAsync(cancellationToken);
     }
 }

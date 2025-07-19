@@ -21,9 +21,9 @@ public class UserController : ControllerBase
     }
 
     [HttpPost(nameof(SignUp))]
-    public IActionResult SignUp(CreateUserDto dto)
+    public async Task<IActionResult> SignUp(CreateUserDto dto, CancellationToken cancellationToken)
     {
-        userManagementService.SignUp(dto);
+        await userManagementService.SignUpAsync(dto, cancellationToken);
         return Ok();
     }
 
@@ -34,16 +34,17 @@ public class UserController : ControllerBase
     }
 
     [HttpGet(nameof(Get))]
-    public IActionResult Get()
+    public async Task<IActionResult> Get(CancellationToken cancellationToken)
     {
-        var users = userManagementService.GetUsers();
+        var users = await userManagementService.GetUsersAsync(cancellationToken);
         return Ok(users);
     }
 
     [HttpGet(nameof(GetById))]
-    public IActionResult GetById()
+    public async Task<IActionResult> GetById([FromQuery] long id, CancellationToken cancellationToken)
     {
-        return Ok();
+        var response = await userManagementService.GetByIdAsync(id, cancellationToken);
+        return Ok(response);
     }
 
     [HttpPatch(nameof(Active))]

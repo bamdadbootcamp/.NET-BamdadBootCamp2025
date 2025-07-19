@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  usermanagement.webapi:
+    image: ${DOCKER_REGISTRY-}usermanagementwebapi
+    build:
+      context: .
+      dockerfile: UserManagement.WebApi/Dockerfile
