@@ -11,6 +11,7 @@ public class UserController(IMediator mediator) : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
+        var requestedIp = HttpContext.Connection.RemoteIpAddress;
         return Ok();
     }
 
